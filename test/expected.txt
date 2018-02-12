@@ -297,6 +297,27 @@
 || 
 || 0 persons listed!
 || ===================================================
+|| Enter command: || [Command entered:    add Bob p/1234567 e/bob@gmail.com a/abc]
+|| New person added: Bob Phone: 1234567 Email: bob@gmail.com Address: abc Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:    add Alice p/1234567 e/Alice@gmail.com a/abc]
+|| New person added: Alice Phone: 1234567 Email: Alice@gmail.com Address: abc Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:    list]
+|| 	1. Bob Phone: 1234567 Email: bob@gmail.com Address: abc Tags: 
+|| 	2. Alice Phone: 1234567 Email: Alice@gmail.com Address: abc Tags: 
+|| 
+|| 2 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:    sort]
+|| 	1. Alice Phone: 1234567 Email: Alice@gmail.com Address: abc Tags: 
+|| 	2. Bob Phone: 1234567 Email: bob@gmail.com Address: abc Tags: 
+|| 
+|| 2 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:    clear]
+|| Address book has been cleared!
+|| ===================================================
 || Enter command: || [Command entered:  exit]
 || Exiting Address Book as requested ...
 || ===================================================
