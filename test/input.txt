@@ -158,6 +158,13 @@
     sort
     clear
 
+##########################################################
+# test case-insensitive find command
+##########################################################
+    #insert Alice
+    add Alice p/1234567 e/Alice@gmail.com a/abc
+    find alice
+    clear
 
 ##########################################################
 # test exit command

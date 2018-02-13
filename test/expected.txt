@@ -213,8 +213,9 @@
 || 0 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  find betsy]
+|| 	1. Betsy Choo Tags: [secretive]
 || 
-|| 0 persons listed!
+|| 1 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  find Betsy]
 || 	1. Betsy Choo Tags: [secretive]
@@ -314,6 +315,17 @@
 || 	2. Bob Phone: 1234567 Email: bob@gmail.com Address: abc Tags: 
 || 
 || 2 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:    clear]
+|| Address book has been cleared!
+|| ===================================================
+|| Enter command: || [Command entered:    add Alice p/1234567 e/Alice@gmail.com a/abc]
+|| New person added: Alice Phone: 1234567 Email: Alice@gmail.com Address: abc Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:    find alice]
+|| 	1. Alice Phone: 1234567 Email: Alice@gmail.com Address: abc Tags: 
+|| 
+|| 1 persons listed!
 || ===================================================
 || Enter command: || [Command entered:    clear]
 || Address book has been cleared!
