@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Stream;
 
 import seedu.addressbook.data.person.ReadOnlyPerson;
 
@@ -48,9 +49,18 @@ public class FindCommand extends Command {
      */
     private List<ReadOnlyPerson> getPersonsWithNameContainingAnyKeyword(Set<String> keywords) {
         final List<ReadOnlyPerson> matchedPersons = new ArrayList<>();
+
         for (ReadOnlyPerson person : addressBook.getAllPersons()) {
             final Set<String> wordsInName = new HashSet<>(person.getName().getWordsInName());
-            if (!Collections.disjoint(wordsInName, keywords)) {
+
+            //convert all keywords to lower case
+            Set<String> lowercaseKeywords = new HashSet<>();
+            for(String s: keywords){
+               lowercaseKeywords.add(s.toLowerCase());
+            }
+
+            //Check for overlap
+            if (!Collections.disjoint(wordsInName, lowercaseKeywords)) {
                 matchedPersons.add(person);
             }
         }
