@@ -55,8 +55,8 @@ public class FindCommand extends Command {
 
             //convert all keywords to lower case
             Set<String> lowercaseKeywords = new HashSet<>();
-            for(String s: keywords){
-               lowercaseKeywords.add(s.toLowerCase());
+            for (String s : keywords) {
+                lowercaseKeywords.add(s.toLowerCase());
             }
 
             //Check for overlap
